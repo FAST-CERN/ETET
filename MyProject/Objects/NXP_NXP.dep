@@ -1,0 +1,774 @@
+Dependencies for Project 'NXP', Target 'NXP': (DO NOT MODIFY !)
+F (.\Device\MM32SPIN2xx_p_LIB\Source\system_MM32SPIN2xx_p.c)(0x5D8DDCC2)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\Device\CMSIS\KEIL_CORE -I .\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc -I .\Device\MM32SPIN2xx_p_LIB\Include-I.\RTE\_NXP-ID:\Keil525\ARM\CMSIS\Include-D__UVISION_VERSION="525"-o .\objects\system_mm32spin2xx_p.o --omf_browse .\objects\system_mm32spin2xx_p.crf --depend .\objects\system_mm32spin2xx_p.d)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\HAL_device.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\MM32SPIN2xx_p.h)(0x5D9033D4)
+I (.\Device\CMSIS\KEIL_CORE\core_cm0.h)(0x5D5372D8)
+I (D:\Keil525\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\Device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5CB55A34)
+I (.\Device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5CB55A34)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\system_MM32SPIN2xx_p.h)(0x5D8DDCC4)
+F (.\Device\MM32SPIN2xx_p_LIB\Source\KEIL_StartAsm\startup_MM32SPIN2xx_p.s)(0x5D907FB8)(--cpu Cortex-M0 -g --apcs=interwork -I.\RTE\_NXP-ID:\Keil525\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 525"--list .\listings\startup_mm32spin2xx_p.lst --xref -o .\objects\startup_mm32spin2xx_p.o --depend .\objects\startup_mm32spin2xx_p.d)
+F (.\main.c)(0x6061E4BB)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\Device\CMSIS\KEIL_CORE -I .\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc -I .\Device\MM32SPIN2xx_p_LIB\Include-I.\RTE\_NXP-ID:\Keil525\ARM\CMSIS\Include-D__UVISION_VERSION="525"-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (main.h)(0x606284B1)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\HAL_device.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\MM32SPIN2xx_p.h)(0x5D9033D4)
+I (.\Device\CMSIS\KEIL_CORE\core_cm0.h)(0x5D5372D8)
+I (D:\Keil525\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\Device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5CB55A34)
+I (.\Device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5CB55A34)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\system_MM32SPIN2xx_p.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_conf.h)(0x5D902724)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_adc.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_crc.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_comp.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_dma.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_div.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_exti.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_flash.h)(0x5D8DDCF8)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_gpio.h)(0x602102AA)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_i2c.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_iwdg.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_op.h)(0x5D90263A)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_pwr.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_rcc.h)(0x6020ED4E)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_spi.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_tim.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_uart.h)(0x602A2ECB)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_wwdg.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_misc.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_syscfg.h)(0x5D8DDCC4)
+I (D:\Keil525\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\Keil525\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (D:\Keil525\ARM\ARMCC\include\math.h)(0x599ECD2E)
+I (isr.h)(0x602A2864)
+I (board.h)(0x602655B2)
+I (LED.h)(0x60628243)
+I (TIM_BASE.h)(0x602752D5)
+I (TaskHandler.h)(0x6027778E)
+I (KEY.h)(0x6062825E)
+I (myTIM.h)(0x6028E82C)
+I (UART.h)(0x602B4047)
+I (SPI.h)(0x603B58EF)
+I (ICM.h)(0x60628E73)
+I (LCD.h)(0x603B58FD)
+I (BUZ.h)(0x60628B0F)
+F (.\KEY.c)(0x60628287)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\Device\CMSIS\KEIL_CORE -I .\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc -I .\Device\MM32SPIN2xx_p_LIB\Include-I.\RTE\_NXP-ID:\Keil525\ARM\CMSIS\Include-D__UVISION_VERSION="525"-o .\objects\key.o --omf_browse .\objects\key.crf --depend .\objects\key.d)
+I (main.h)(0x606284B1)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\HAL_device.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\MM32SPIN2xx_p.h)(0x5D9033D4)
+I (.\Device\CMSIS\KEIL_CORE\core_cm0.h)(0x5D5372D8)
+I (D:\Keil525\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\Device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5CB55A34)
+I (.\Device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5CB55A34)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\system_MM32SPIN2xx_p.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_conf.h)(0x5D902724)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_adc.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_crc.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_comp.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_dma.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_div.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_exti.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_flash.h)(0x5D8DDCF8)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_gpio.h)(0x602102AA)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_i2c.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_iwdg.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_op.h)(0x5D90263A)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_pwr.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_rcc.h)(0x6020ED4E)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_spi.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_tim.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_uart.h)(0x602A2ECB)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_wwdg.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_misc.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_syscfg.h)(0x5D8DDCC4)
+I (D:\Keil525\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\Keil525\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (D:\Keil525\ARM\ARMCC\include\math.h)(0x599ECD2E)
+I (isr.h)(0x602A2864)
+I (board.h)(0x602655B2)
+I (LED.h)(0x60628243)
+I (TIM_BASE.h)(0x602752D5)
+I (TaskHandler.h)(0x6027778E)
+I (KEY.h)(0x6062825E)
+I (myTIM.h)(0x6028E82C)
+I (UART.h)(0x602B4047)
+I (SPI.h)(0x603B58EF)
+I (ICM.h)(0x60628E73)
+I (LCD.h)(0x603B58FD)
+I (BUZ.h)(0x60628B0F)
+F (.\LED.c)(0x6061E479)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\Device\CMSIS\KEIL_CORE -I .\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc -I .\Device\MM32SPIN2xx_p_LIB\Include-I.\RTE\_NXP-ID:\Keil525\ARM\CMSIS\Include-D__UVISION_VERSION="525"-o .\objects\led.o --omf_browse .\objects\led.crf --depend .\objects\led.d)
+I (main.h)(0x606284B1)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\HAL_device.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\MM32SPIN2xx_p.h)(0x5D9033D4)
+I (.\Device\CMSIS\KEIL_CORE\core_cm0.h)(0x5D5372D8)
+I (D:\Keil525\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\Device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5CB55A34)
+I (.\Device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5CB55A34)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\system_MM32SPIN2xx_p.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_conf.h)(0x5D902724)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_adc.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_crc.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_comp.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_dma.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_div.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_exti.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_flash.h)(0x5D8DDCF8)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_gpio.h)(0x602102AA)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_i2c.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_iwdg.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_op.h)(0x5D90263A)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_pwr.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_rcc.h)(0x6020ED4E)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_spi.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_tim.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_uart.h)(0x602A2ECB)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_wwdg.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_misc.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_syscfg.h)(0x5D8DDCC4)
+I (D:\Keil525\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\Keil525\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (D:\Keil525\ARM\ARMCC\include\math.h)(0x599ECD2E)
+I (isr.h)(0x602A2864)
+I (board.h)(0x602655B2)
+I (LED.h)(0x60628243)
+I (TIM_BASE.h)(0x602752D5)
+I (TaskHandler.h)(0x6027778E)
+I (KEY.h)(0x6062825E)
+I (myTIM.h)(0x6028E82C)
+I (UART.h)(0x602B4047)
+I (SPI.h)(0x603B58EF)
+I (ICM.h)(0x60628E73)
+I (LCD.h)(0x603B58FD)
+I (BUZ.h)(0x60628B0F)
+F (.\isr.c)(0x6061DB15)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\Device\CMSIS\KEIL_CORE -I .\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc -I .\Device\MM32SPIN2xx_p_LIB\Include-I.\RTE\_NXP-ID:\Keil525\ARM\CMSIS\Include-D__UVISION_VERSION="525"-o .\objects\isr.o --omf_browse .\objects\isr.crf --depend .\objects\isr.d)
+I (main.h)(0x606284B1)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\HAL_device.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\MM32SPIN2xx_p.h)(0x5D9033D4)
+I (.\Device\CMSIS\KEIL_CORE\core_cm0.h)(0x5D5372D8)
+I (D:\Keil525\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\Device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5CB55A34)
+I (.\Device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5CB55A34)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\system_MM32SPIN2xx_p.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_conf.h)(0x5D902724)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_adc.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_crc.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_comp.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_dma.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_div.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_exti.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_flash.h)(0x5D8DDCF8)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_gpio.h)(0x602102AA)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_i2c.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_iwdg.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_op.h)(0x5D90263A)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_pwr.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_rcc.h)(0x6020ED4E)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_spi.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_tim.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_uart.h)(0x602A2ECB)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_wwdg.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_misc.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_syscfg.h)(0x5D8DDCC4)
+I (D:\Keil525\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\Keil525\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (D:\Keil525\ARM\ARMCC\include\math.h)(0x599ECD2E)
+I (isr.h)(0x602A2864)
+I (board.h)(0x602655B2)
+I (LED.h)(0x60628243)
+I (TIM_BASE.h)(0x602752D5)
+I (TaskHandler.h)(0x6027778E)
+I (KEY.h)(0x6062825E)
+I (myTIM.h)(0x6028E82C)
+I (UART.h)(0x602B4047)
+I (SPI.h)(0x603B58EF)
+I (ICM.h)(0x60628E73)
+I (LCD.h)(0x603B58FD)
+I (BUZ.h)(0x60628B0F)
+F (.\TaskHandler.c)(0x6061B647)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\Device\CMSIS\KEIL_CORE -I .\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc -I .\Device\MM32SPIN2xx_p_LIB\Include-I.\RTE\_NXP-ID:\Keil525\ARM\CMSIS\Include-D__UVISION_VERSION="525"-o .\objects\taskhandler.o --omf_browse .\objects\taskhandler.crf --depend .\objects\taskhandler.d)
+I (main.h)(0x606284B1)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\HAL_device.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\MM32SPIN2xx_p.h)(0x5D9033D4)
+I (.\Device\CMSIS\KEIL_CORE\core_cm0.h)(0x5D5372D8)
+I (D:\Keil525\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\Device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5CB55A34)
+I (.\Device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5CB55A34)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\system_MM32SPIN2xx_p.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_conf.h)(0x5D902724)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_adc.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_crc.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_comp.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_dma.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_div.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_exti.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_flash.h)(0x5D8DDCF8)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_gpio.h)(0x602102AA)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_i2c.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_iwdg.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_op.h)(0x5D90263A)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_pwr.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_rcc.h)(0x6020ED4E)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_spi.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_tim.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_uart.h)(0x602A2ECB)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_wwdg.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_misc.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_syscfg.h)(0x5D8DDCC4)
+I (D:\Keil525\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\Keil525\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (D:\Keil525\ARM\ARMCC\include\math.h)(0x599ECD2E)
+I (isr.h)(0x602A2864)
+I (board.h)(0x602655B2)
+I (LED.h)(0x60628243)
+I (TIM_BASE.h)(0x602752D5)
+I (TaskHandler.h)(0x6027778E)
+I (KEY.h)(0x6062825E)
+I (myTIM.h)(0x6028E82C)
+I (UART.h)(0x602B4047)
+I (SPI.h)(0x603B58EF)
+I (ICM.h)(0x60628E73)
+I (LCD.h)(0x603B58FD)
+I (BUZ.h)(0x60628B0F)
+F (.\ICM.c)(0x60628E61)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\Device\CMSIS\KEIL_CORE -I .\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc -I .\Device\MM32SPIN2xx_p_LIB\Include-I.\RTE\_NXP-ID:\Keil525\ARM\CMSIS\Include-D__UVISION_VERSION="525"-o .\objects\icm.o --omf_browse .\objects\icm.crf --depend .\objects\icm.d)
+I (main.h)(0x606284B1)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\HAL_device.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\MM32SPIN2xx_p.h)(0x5D9033D4)
+I (.\Device\CMSIS\KEIL_CORE\core_cm0.h)(0x5D5372D8)
+I (D:\Keil525\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\Device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5CB55A34)
+I (.\Device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5CB55A34)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\system_MM32SPIN2xx_p.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_conf.h)(0x5D902724)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_adc.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_crc.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_comp.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_dma.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_div.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_exti.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_flash.h)(0x5D8DDCF8)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_gpio.h)(0x602102AA)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_i2c.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_iwdg.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_op.h)(0x5D90263A)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_pwr.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_rcc.h)(0x6020ED4E)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_spi.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_tim.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_uart.h)(0x602A2ECB)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_wwdg.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_misc.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_syscfg.h)(0x5D8DDCC4)
+I (D:\Keil525\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\Keil525\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (D:\Keil525\ARM\ARMCC\include\math.h)(0x599ECD2E)
+I (isr.h)(0x602A2864)
+I (board.h)(0x602655B2)
+I (LED.h)(0x60628243)
+I (TIM_BASE.h)(0x602752D5)
+I (TaskHandler.h)(0x6027778E)
+I (KEY.h)(0x6062825E)
+I (myTIM.h)(0x6028E82C)
+I (UART.h)(0x602B4047)
+I (SPI.h)(0x603B58EF)
+I (ICM.h)(0x60628E73)
+I (LCD.h)(0x603B58FD)
+I (BUZ.h)(0x60628B0F)
+F (.\LCD.c)(0x603B5954)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\Device\CMSIS\KEIL_CORE -I .\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc -I .\Device\MM32SPIN2xx_p_LIB\Include-I.\RTE\_NXP-ID:\Keil525\ARM\CMSIS\Include-D__UVISION_VERSION="525"-o .\objects\lcd.o --omf_browse .\objects\lcd.crf --depend .\objects\lcd.d)
+I (main.h)(0x606284B1)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\HAL_device.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\MM32SPIN2xx_p.h)(0x5D9033D4)
+I (.\Device\CMSIS\KEIL_CORE\core_cm0.h)(0x5D5372D8)
+I (D:\Keil525\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\Device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5CB55A34)
+I (.\Device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5CB55A34)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\system_MM32SPIN2xx_p.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_conf.h)(0x5D902724)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_adc.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_crc.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_comp.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_dma.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_div.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_exti.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_flash.h)(0x5D8DDCF8)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_gpio.h)(0x602102AA)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_i2c.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_iwdg.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_op.h)(0x5D90263A)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_pwr.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_rcc.h)(0x6020ED4E)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_spi.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_tim.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_uart.h)(0x602A2ECB)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_wwdg.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_misc.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_syscfg.h)(0x5D8DDCC4)
+I (D:\Keil525\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\Keil525\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (D:\Keil525\ARM\ARMCC\include\math.h)(0x599ECD2E)
+I (isr.h)(0x602A2864)
+I (board.h)(0x602655B2)
+I (LED.h)(0x60628243)
+I (TIM_BASE.h)(0x602752D5)
+I (TaskHandler.h)(0x6027778E)
+I (KEY.h)(0x6062825E)
+I (myTIM.h)(0x6028E82C)
+I (UART.h)(0x602B4047)
+I (SPI.h)(0x603B58EF)
+I (ICM.h)(0x60628E73)
+I (LCD.h)(0x603B58FD)
+I (BUZ.h)(0x60628B0F)
+F (.\BUZ.c)(0x60628B4E)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\Device\CMSIS\KEIL_CORE -I .\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc -I .\Device\MM32SPIN2xx_p_LIB\Include-I.\RTE\_NXP-ID:\Keil525\ARM\CMSIS\Include-D__UVISION_VERSION="525"-o .\objects\buz.o --omf_browse .\objects\buz.crf --depend .\objects\buz.d)
+I (main.h)(0x606284B1)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\HAL_device.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\MM32SPIN2xx_p.h)(0x5D9033D4)
+I (.\Device\CMSIS\KEIL_CORE\core_cm0.h)(0x5D5372D8)
+I (D:\Keil525\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\Device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5CB55A34)
+I (.\Device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5CB55A34)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\system_MM32SPIN2xx_p.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_conf.h)(0x5D902724)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_adc.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_crc.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_comp.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_dma.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_div.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_exti.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_flash.h)(0x5D8DDCF8)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_gpio.h)(0x602102AA)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_i2c.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_iwdg.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_op.h)(0x5D90263A)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_pwr.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_rcc.h)(0x6020ED4E)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_spi.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_tim.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_uart.h)(0x602A2ECB)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_wwdg.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_misc.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_syscfg.h)(0x5D8DDCC4)
+I (D:\Keil525\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\Keil525\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (D:\Keil525\ARM\ARMCC\include\math.h)(0x599ECD2E)
+I (isr.h)(0x602A2864)
+I (board.h)(0x602655B2)
+I (LED.h)(0x60628243)
+I (TIM_BASE.h)(0x602752D5)
+I (TaskHandler.h)(0x6027778E)
+I (KEY.h)(0x6062825E)
+I (myTIM.h)(0x6028E82C)
+I (UART.h)(0x602B4047)
+I (SPI.h)(0x603B58EF)
+I (ICM.h)(0x60628E73)
+I (LCD.h)(0x603B58FD)
+I (BUZ.h)(0x60628B0F)
+F (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\src\HAL_adc.c)(0x5D8DDCC2)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\Device\CMSIS\KEIL_CORE -I .\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc -I .\Device\MM32SPIN2xx_p_LIB\Include-I.\RTE\_NXP-ID:\Keil525\ARM\CMSIS\Include-D__UVISION_VERSION="525"-o .\objects\hal_adc.o --omf_browse .\objects\hal_adc.crf --depend .\objects\hal_adc.d)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_adc.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\HAL_device.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\MM32SPIN2xx_p.h)(0x5D9033D4)
+I (.\Device\CMSIS\KEIL_CORE\core_cm0.h)(0x5D5372D8)
+I (D:\Keil525\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\Device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5CB55A34)
+I (.\Device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5CB55A34)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\system_MM32SPIN2xx_p.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_rcc.h)(0x6020ED4E)
+F (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\src\HAL_comp.c)(0x5D8DDCC2)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\Device\CMSIS\KEIL_CORE -I .\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc -I .\Device\MM32SPIN2xx_p_LIB\Include-I.\RTE\_NXP-ID:\Keil525\ARM\CMSIS\Include-D__UVISION_VERSION="525"-o .\objects\hal_comp.o --omf_browse .\objects\hal_comp.crf --depend .\objects\hal_comp.d)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_comp.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\HAL_device.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\MM32SPIN2xx_p.h)(0x5D9033D4)
+I (.\Device\CMSIS\KEIL_CORE\core_cm0.h)(0x5D5372D8)
+I (D:\Keil525\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\Device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5CB55A34)
+I (.\Device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5CB55A34)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\system_MM32SPIN2xx_p.h)(0x5D8DDCC4)
+F (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\src\HAL_crc.c)(0x5D8DDCC2)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\Device\CMSIS\KEIL_CORE -I .\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc -I .\Device\MM32SPIN2xx_p_LIB\Include-I.\RTE\_NXP-ID:\Keil525\ARM\CMSIS\Include-D__UVISION_VERSION="525"-o .\objects\hal_crc.o --omf_browse .\objects\hal_crc.crf --depend .\objects\hal_crc.d)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_crc.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\HAL_device.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\MM32SPIN2xx_p.h)(0x5D9033D4)
+I (.\Device\CMSIS\KEIL_CORE\core_cm0.h)(0x5D5372D8)
+I (D:\Keil525\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\Device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5CB55A34)
+I (.\Device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5CB55A34)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\system_MM32SPIN2xx_p.h)(0x5D8DDCC4)
+F (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\src\HAL_div.c)(0x5D8DDCC2)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\Device\CMSIS\KEIL_CORE -I .\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc -I .\Device\MM32SPIN2xx_p_LIB\Include-I.\RTE\_NXP-ID:\Keil525\ARM\CMSIS\Include-D__UVISION_VERSION="525"-o .\objects\hal_div.o --omf_browse .\objects\hal_div.crf --depend .\objects\hal_div.d)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_div.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\HAL_device.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\MM32SPIN2xx_p.h)(0x5D9033D4)
+I (.\Device\CMSIS\KEIL_CORE\core_cm0.h)(0x5D5372D8)
+I (D:\Keil525\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\Device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5CB55A34)
+I (.\Device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5CB55A34)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\system_MM32SPIN2xx_p.h)(0x5D8DDCC4)
+F (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\src\HAL_dma.c)(0x5D8DDCC2)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\Device\CMSIS\KEIL_CORE -I .\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc -I .\Device\MM32SPIN2xx_p_LIB\Include-I.\RTE\_NXP-ID:\Keil525\ARM\CMSIS\Include-D__UVISION_VERSION="525"-o .\objects\hal_dma.o --omf_browse .\objects\hal_dma.crf --depend .\objects\hal_dma.d)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_dma.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\HAL_device.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\MM32SPIN2xx_p.h)(0x5D9033D4)
+I (.\Device\CMSIS\KEIL_CORE\core_cm0.h)(0x5D5372D8)
+I (D:\Keil525\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\Device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5CB55A34)
+I (.\Device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5CB55A34)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\system_MM32SPIN2xx_p.h)(0x5D8DDCC4)
+F (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\src\HAL_exti.c)(0x5D8DDCC2)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\Device\CMSIS\KEIL_CORE -I .\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc -I .\Device\MM32SPIN2xx_p_LIB\Include-I.\RTE\_NXP-ID:\Keil525\ARM\CMSIS\Include-D__UVISION_VERSION="525"-o .\objects\hal_exti.o --omf_browse .\objects\hal_exti.crf --depend .\objects\hal_exti.d)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_exti.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\HAL_device.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\MM32SPIN2xx_p.h)(0x5D9033D4)
+I (.\Device\CMSIS\KEIL_CORE\core_cm0.h)(0x5D5372D8)
+I (D:\Keil525\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\Device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5CB55A34)
+I (.\Device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5CB55A34)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\system_MM32SPIN2xx_p.h)(0x5D8DDCC4)
+F (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\src\HAL_flash.c)(0x5D8DDCC4)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\Device\CMSIS\KEIL_CORE -I .\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc -I .\Device\MM32SPIN2xx_p_LIB\Include-I.\RTE\_NXP-ID:\Keil525\ARM\CMSIS\Include-D__UVISION_VERSION="525"-o .\objects\hal_flash.o --omf_browse .\objects\hal_flash.crf --depend .\objects\hal_flash.d)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_flash.h)(0x5D8DDCF8)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\HAL_device.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\MM32SPIN2xx_p.h)(0x5D9033D4)
+I (.\Device\CMSIS\KEIL_CORE\core_cm0.h)(0x5D5372D8)
+I (D:\Keil525\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\Device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5CB55A34)
+I (.\Device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5CB55A34)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\system_MM32SPIN2xx_p.h)(0x5D8DDCC4)
+F (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\src\HAL_gpio.c)(0x60264240)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\Device\CMSIS\KEIL_CORE -I .\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc -I .\Device\MM32SPIN2xx_p_LIB\Include-I.\RTE\_NXP-ID:\Keil525\ARM\CMSIS\Include-D__UVISION_VERSION="525"-o .\objects\hal_gpio.o --omf_browse .\objects\hal_gpio.crf --depend .\objects\hal_gpio.d)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_gpio.h)(0x602102AA)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\HAL_device.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\MM32SPIN2xx_p.h)(0x5D9033D4)
+I (.\Device\CMSIS\KEIL_CORE\core_cm0.h)(0x5D5372D8)
+I (D:\Keil525\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\Device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5CB55A34)
+I (.\Device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5CB55A34)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\system_MM32SPIN2xx_p.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_rcc.h)(0x6020ED4E)
+F (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\src\HAL_i2c.c)(0x5D8DDCC4)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\Device\CMSIS\KEIL_CORE -I .\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc -I .\Device\MM32SPIN2xx_p_LIB\Include-I.\RTE\_NXP-ID:\Keil525\ARM\CMSIS\Include-D__UVISION_VERSION="525"-o .\objects\hal_i2c.o --omf_browse .\objects\hal_i2c.crf --depend .\objects\hal_i2c.d)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_i2c.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\HAL_device.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\MM32SPIN2xx_p.h)(0x5D9033D4)
+I (.\Device\CMSIS\KEIL_CORE\core_cm0.h)(0x5D5372D8)
+I (D:\Keil525\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\Device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5CB55A34)
+I (.\Device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5CB55A34)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\system_MM32SPIN2xx_p.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_rcc.h)(0x6020ED4E)
+F (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\src\HAL_iwdg.c)(0x5D8DDCC4)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\Device\CMSIS\KEIL_CORE -I .\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc -I .\Device\MM32SPIN2xx_p_LIB\Include-I.\RTE\_NXP-ID:\Keil525\ARM\CMSIS\Include-D__UVISION_VERSION="525"-o .\objects\hal_iwdg.o --omf_browse .\objects\hal_iwdg.crf --depend .\objects\hal_iwdg.d)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_iwdg.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\HAL_device.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\MM32SPIN2xx_p.h)(0x5D9033D4)
+I (.\Device\CMSIS\KEIL_CORE\core_cm0.h)(0x5D5372D8)
+I (D:\Keil525\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\Device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5CB55A34)
+I (.\Device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5CB55A34)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\system_MM32SPIN2xx_p.h)(0x5D8DDCC4)
+F (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\src\HAL_misc.c)(0x60236331)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\Device\CMSIS\KEIL_CORE -I .\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc -I .\Device\MM32SPIN2xx_p_LIB\Include-I.\RTE\_NXP-ID:\Keil525\ARM\CMSIS\Include-D__UVISION_VERSION="525"-o .\objects\hal_misc.o --omf_browse .\objects\hal_misc.crf --depend .\objects\hal_misc.d)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_misc.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\HAL_device.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\MM32SPIN2xx_p.h)(0x5D9033D4)
+I (.\Device\CMSIS\KEIL_CORE\core_cm0.h)(0x5D5372D8)
+I (D:\Keil525\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\Device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5CB55A34)
+I (.\Device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5CB55A34)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\system_MM32SPIN2xx_p.h)(0x5D8DDCC4)
+F (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\src\HAL_op.c)(0x5D90338E)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\Device\CMSIS\KEIL_CORE -I .\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc -I .\Device\MM32SPIN2xx_p_LIB\Include-I.\RTE\_NXP-ID:\Keil525\ARM\CMSIS\Include-D__UVISION_VERSION="525"-o .\objects\hal_op.o --omf_browse .\objects\hal_op.crf --depend .\objects\hal_op.d)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_op.h)(0x5D90263A)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\HAL_device.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\MM32SPIN2xx_p.h)(0x5D9033D4)
+I (.\Device\CMSIS\KEIL_CORE\core_cm0.h)(0x5D5372D8)
+I (D:\Keil525\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\Device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5CB55A34)
+I (.\Device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5CB55A34)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\system_MM32SPIN2xx_p.h)(0x5D8DDCC4)
+F (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\src\HAL_pwr.c)(0x5D8DDCC4)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\Device\CMSIS\KEIL_CORE -I .\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc -I .\Device\MM32SPIN2xx_p_LIB\Include-I.\RTE\_NXP-ID:\Keil525\ARM\CMSIS\Include-D__UVISION_VERSION="525"-o .\objects\hal_pwr.o --omf_browse .\objects\hal_pwr.crf --depend .\objects\hal_pwr.d)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_pwr.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\HAL_device.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\MM32SPIN2xx_p.h)(0x5D9033D4)
+I (.\Device\CMSIS\KEIL_CORE\core_cm0.h)(0x5D5372D8)
+I (D:\Keil525\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\Device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5CB55A34)
+I (.\Device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5CB55A34)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\system_MM32SPIN2xx_p.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_rcc.h)(0x6020ED4E)
+F (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\src\HAL_rcc.c)(0x5D8DDCC4)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\Device\CMSIS\KEIL_CORE -I .\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc -I .\Device\MM32SPIN2xx_p_LIB\Include-I.\RTE\_NXP-ID:\Keil525\ARM\CMSIS\Include-D__UVISION_VERSION="525"-o .\objects\hal_rcc.o --omf_browse .\objects\hal_rcc.crf --depend .\objects\hal_rcc.d)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_rcc.h)(0x6020ED4E)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\HAL_device.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\MM32SPIN2xx_p.h)(0x5D9033D4)
+I (.\Device\CMSIS\KEIL_CORE\core_cm0.h)(0x5D5372D8)
+I (D:\Keil525\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\Device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5CB55A34)
+I (.\Device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5CB55A34)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\system_MM32SPIN2xx_p.h)(0x5D8DDCC4)
+F (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\src\HAL_spi.c)(0x602E11E1)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\Device\CMSIS\KEIL_CORE -I .\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc -I .\Device\MM32SPIN2xx_p_LIB\Include-I.\RTE\_NXP-ID:\Keil525\ARM\CMSIS\Include-D__UVISION_VERSION="525"-o .\objects\hal_spi.o --omf_browse .\objects\hal_spi.crf --depend .\objects\hal_spi.d)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_spi.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\HAL_device.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\MM32SPIN2xx_p.h)(0x5D9033D4)
+I (.\Device\CMSIS\KEIL_CORE\core_cm0.h)(0x5D5372D8)
+I (D:\Keil525\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\Device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5CB55A34)
+I (.\Device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5CB55A34)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\system_MM32SPIN2xx_p.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_rcc.h)(0x6020ED4E)
+F (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\src\HAL_syscfg.c)(0x5D8DDCC4)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\Device\CMSIS\KEIL_CORE -I .\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc -I .\Device\MM32SPIN2xx_p_LIB\Include-I.\RTE\_NXP-ID:\Keil525\ARM\CMSIS\Include-D__UVISION_VERSION="525"-o .\objects\hal_syscfg.o --omf_browse .\objects\hal_syscfg.crf --depend .\objects\hal_syscfg.d)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_syscfg.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\HAL_device.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\MM32SPIN2xx_p.h)(0x5D9033D4)
+I (.\Device\CMSIS\KEIL_CORE\core_cm0.h)(0x5D5372D8)
+I (D:\Keil525\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\Device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5CB55A34)
+I (.\Device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5CB55A34)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\system_MM32SPIN2xx_p.h)(0x5D8DDCC4)
+F (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\src\HAL_tim.c)(0x5D8DDCC4)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\Device\CMSIS\KEIL_CORE -I .\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc -I .\Device\MM32SPIN2xx_p_LIB\Include-I.\RTE\_NXP-ID:\Keil525\ARM\CMSIS\Include-D__UVISION_VERSION="525"-o .\objects\hal_tim.o --omf_browse .\objects\hal_tim.crf --depend .\objects\hal_tim.d)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_tim.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\HAL_device.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\MM32SPIN2xx_p.h)(0x5D9033D4)
+I (.\Device\CMSIS\KEIL_CORE\core_cm0.h)(0x5D5372D8)
+I (D:\Keil525\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\Device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5CB55A34)
+I (.\Device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5CB55A34)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\system_MM32SPIN2xx_p.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_rcc.h)(0x6020ED4E)
+F (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\src\HAL_uart.c)(0x602A325A)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\Device\CMSIS\KEIL_CORE -I .\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc -I .\Device\MM32SPIN2xx_p_LIB\Include-I.\RTE\_NXP-ID:\Keil525\ARM\CMSIS\Include-D__UVISION_VERSION="525"-o .\objects\hal_uart.o --omf_browse .\objects\hal_uart.crf --depend .\objects\hal_uart.d)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_uart.h)(0x602A2ECB)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\HAL_device.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\MM32SPIN2xx_p.h)(0x5D9033D4)
+I (.\Device\CMSIS\KEIL_CORE\core_cm0.h)(0x5D5372D8)
+I (D:\Keil525\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\Device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5CB55A34)
+I (.\Device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5CB55A34)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\system_MM32SPIN2xx_p.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_rcc.h)(0x6020ED4E)
+F (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\src\HAL_wwdg.c)(0x5D8DDCC4)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\Device\CMSIS\KEIL_CORE -I .\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc -I .\Device\MM32SPIN2xx_p_LIB\Include-I.\RTE\_NXP-ID:\Keil525\ARM\CMSIS\Include-D__UVISION_VERSION="525"-o .\objects\hal_wwdg.o --omf_browse .\objects\hal_wwdg.crf --depend .\objects\hal_wwdg.d)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_wwdg.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\HAL_device.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\MM32SPIN2xx_p.h)(0x5D9033D4)
+I (.\Device\CMSIS\KEIL_CORE\core_cm0.h)(0x5D5372D8)
+I (D:\Keil525\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\Device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5CB55A34)
+I (.\Device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5CB55A34)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\system_MM32SPIN2xx_p.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_rcc.h)(0x6020ED4E)
+F (.\board.c)(0x60239276)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\Device\CMSIS\KEIL_CORE -I .\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc -I .\Device\MM32SPIN2xx_p_LIB\Include-I.\RTE\_NXP-ID:\Keil525\ARM\CMSIS\Include-D__UVISION_VERSION="525"-o .\objects\board.o --omf_browse .\objects\board.crf --depend .\objects\board.d)
+I (main.h)(0x606284B1)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\HAL_device.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\MM32SPIN2xx_p.h)(0x5D9033D4)
+I (.\Device\CMSIS\KEIL_CORE\core_cm0.h)(0x5D5372D8)
+I (D:\Keil525\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\Device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5CB55A34)
+I (.\Device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5CB55A34)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\system_MM32SPIN2xx_p.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_conf.h)(0x5D902724)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_adc.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_crc.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_comp.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_dma.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_div.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_exti.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_flash.h)(0x5D8DDCF8)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_gpio.h)(0x602102AA)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_i2c.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_iwdg.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_op.h)(0x5D90263A)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_pwr.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_rcc.h)(0x6020ED4E)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_spi.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_tim.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_uart.h)(0x602A2ECB)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_wwdg.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_misc.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_syscfg.h)(0x5D8DDCC4)
+I (D:\Keil525\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\Keil525\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (D:\Keil525\ARM\ARMCC\include\math.h)(0x599ECD2E)
+I (isr.h)(0x602A2864)
+I (board.h)(0x602655B2)
+I (LED.h)(0x60628243)
+I (TIM_BASE.h)(0x602752D5)
+I (TaskHandler.h)(0x6027778E)
+I (KEY.h)(0x6062825E)
+I (myTIM.h)(0x6028E82C)
+I (UART.h)(0x602B4047)
+I (SPI.h)(0x603B58EF)
+I (ICM.h)(0x60628E73)
+I (LCD.h)(0x603B58FD)
+I (BUZ.h)(0x60628B0F)
+F (.\TIM_BASE.c)(0x6061B39A)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\Device\CMSIS\KEIL_CORE -I .\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc -I .\Device\MM32SPIN2xx_p_LIB\Include-I.\RTE\_NXP-ID:\Keil525\ARM\CMSIS\Include-D__UVISION_VERSION="525"-o .\objects\tim_base.o --omf_browse .\objects\tim_base.crf --depend .\objects\tim_base.d)
+I (main.h)(0x606284B1)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\HAL_device.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\MM32SPIN2xx_p.h)(0x5D9033D4)
+I (.\Device\CMSIS\KEIL_CORE\core_cm0.h)(0x5D5372D8)
+I (D:\Keil525\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\Device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5CB55A34)
+I (.\Device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5CB55A34)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\system_MM32SPIN2xx_p.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_conf.h)(0x5D902724)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_adc.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_crc.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_comp.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_dma.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_div.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_exti.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_flash.h)(0x5D8DDCF8)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_gpio.h)(0x602102AA)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_i2c.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_iwdg.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_op.h)(0x5D90263A)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_pwr.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_rcc.h)(0x6020ED4E)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_spi.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_tim.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_uart.h)(0x602A2ECB)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_wwdg.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_misc.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_syscfg.h)(0x5D8DDCC4)
+I (D:\Keil525\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\Keil525\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (D:\Keil525\ARM\ARMCC\include\math.h)(0x599ECD2E)
+I (isr.h)(0x602A2864)
+I (board.h)(0x602655B2)
+I (LED.h)(0x60628243)
+I (TIM_BASE.h)(0x602752D5)
+I (TaskHandler.h)(0x6027778E)
+I (KEY.h)(0x6062825E)
+I (myTIM.h)(0x6028E82C)
+I (UART.h)(0x602B4047)
+I (SPI.h)(0x603B58EF)
+I (ICM.h)(0x60628E73)
+I (LCD.h)(0x603B58FD)
+I (BUZ.h)(0x60628B0F)
+F (.\SPI.c)(0x603B5706)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\Device\CMSIS\KEIL_CORE -I .\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc -I .\Device\MM32SPIN2xx_p_LIB\Include-I.\RTE\_NXP-ID:\Keil525\ARM\CMSIS\Include-D__UVISION_VERSION="525"-o .\objects\spi.o --omf_browse .\objects\spi.crf --depend .\objects\spi.d)
+I (main.h)(0x606284B1)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\HAL_device.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\MM32SPIN2xx_p.h)(0x5D9033D4)
+I (.\Device\CMSIS\KEIL_CORE\core_cm0.h)(0x5D5372D8)
+I (D:\Keil525\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\Device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5CB55A34)
+I (.\Device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5CB55A34)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\system_MM32SPIN2xx_p.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_conf.h)(0x5D902724)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_adc.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_crc.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_comp.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_dma.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_div.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_exti.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_flash.h)(0x5D8DDCF8)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_gpio.h)(0x602102AA)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_i2c.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_iwdg.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_op.h)(0x5D90263A)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_pwr.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_rcc.h)(0x6020ED4E)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_spi.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_tim.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_uart.h)(0x602A2ECB)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_wwdg.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_misc.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_syscfg.h)(0x5D8DDCC4)
+I (D:\Keil525\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\Keil525\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (D:\Keil525\ARM\ARMCC\include\math.h)(0x599ECD2E)
+I (isr.h)(0x602A2864)
+I (board.h)(0x602655B2)
+I (LED.h)(0x60628243)
+I (TIM_BASE.h)(0x602752D5)
+I (TaskHandler.h)(0x6027778E)
+I (KEY.h)(0x6062825E)
+I (myTIM.h)(0x6028E82C)
+I (UART.h)(0x602B4047)
+I (SPI.h)(0x603B58EF)
+I (ICM.h)(0x60628E73)
+I (LCD.h)(0x603B58FD)
+I (BUZ.h)(0x60628B0F)
+F (.\UART.c)(0x60350D92)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\Device\CMSIS\KEIL_CORE -I .\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc -I .\Device\MM32SPIN2xx_p_LIB\Include-I.\RTE\_NXP-ID:\Keil525\ARM\CMSIS\Include-D__UVISION_VERSION="525"-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
+I (main.h)(0x606284B1)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\HAL_device.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\MM32SPIN2xx_p.h)(0x5D9033D4)
+I (.\Device\CMSIS\KEIL_CORE\core_cm0.h)(0x5D5372D8)
+I (D:\Keil525\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\Device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5CB55A34)
+I (.\Device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5CB55A34)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\system_MM32SPIN2xx_p.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_conf.h)(0x5D902724)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_adc.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_crc.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_comp.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_dma.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_div.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_exti.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_flash.h)(0x5D8DDCF8)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_gpio.h)(0x602102AA)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_i2c.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_iwdg.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_op.h)(0x5D90263A)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_pwr.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_rcc.h)(0x6020ED4E)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_spi.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_tim.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_uart.h)(0x602A2ECB)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_wwdg.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_misc.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_syscfg.h)(0x5D8DDCC4)
+I (D:\Keil525\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\Keil525\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (D:\Keil525\ARM\ARMCC\include\math.h)(0x599ECD2E)
+I (isr.h)(0x602A2864)
+I (board.h)(0x602655B2)
+I (LED.h)(0x60628243)
+I (TIM_BASE.h)(0x602752D5)
+I (TaskHandler.h)(0x6027778E)
+I (KEY.h)(0x6062825E)
+I (myTIM.h)(0x6028E82C)
+I (UART.h)(0x602B4047)
+I (SPI.h)(0x603B58EF)
+I (ICM.h)(0x60628E73)
+I (LCD.h)(0x603B58FD)
+I (BUZ.h)(0x60628B0F)
+F (.\myTIM.c)(0x602BAE10)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\Device\CMSIS\KEIL_CORE -I .\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc -I .\Device\MM32SPIN2xx_p_LIB\Include-I.\RTE\_NXP-ID:\Keil525\ARM\CMSIS\Include-D__UVISION_VERSION="525"-o .\objects\mytim.o --omf_browse .\objects\mytim.crf --depend .\objects\mytim.d)
+I (main.h)(0x606284B1)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\HAL_device.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\MM32SPIN2xx_p.h)(0x5D9033D4)
+I (.\Device\CMSIS\KEIL_CORE\core_cm0.h)(0x5D5372D8)
+I (D:\Keil525\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\Device\CMSIS\KEIL_CORE\core_cmInstr.h)(0x5CB55A34)
+I (.\Device\CMSIS\KEIL_CORE\core_cmFunc.h)(0x5CB55A34)
+I (.\Device\MM32SPIN2xx_p_LIB\Include\system_MM32SPIN2xx_p.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_conf.h)(0x5D902724)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_adc.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_crc.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_comp.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_dma.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_div.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_exti.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_flash.h)(0x5D8DDCF8)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_gpio.h)(0x602102AA)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_i2c.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_iwdg.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_op.h)(0x5D90263A)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_pwr.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_rcc.h)(0x6020ED4E)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_spi.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_tim.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_uart.h)(0x602A2ECB)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_wwdg.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_misc.h)(0x5D8DDCC4)
+I (.\Device\MM32SPIN2xx_p_LIB\HAL_lib\inc\HAL_syscfg.h)(0x5D8DDCC4)
+I (D:\Keil525\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\Keil525\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (D:\Keil525\ARM\ARMCC\include\math.h)(0x599ECD2E)
+I (isr.h)(0x602A2864)
+I (board.h)(0x602655B2)
+I (LED.h)(0x60628243)
+I (TIM_BASE.h)(0x602752D5)
+I (TaskHandler.h)(0x6027778E)
+I (KEY.h)(0x6062825E)
+I (myTIM.h)(0x6028E82C)
+I (UART.h)(0x602B4047)
+I (SPI.h)(0x603B58EF)
+I (ICM.h)(0x60628E73)
+I (LCD.h)(0x603B58FD)
+I (BUZ.h)(0x60628B0F)
+F (.\TIM_BASE.h)(0x602752D5)()
+F (.\board.h)(0x602655B2)()
+F (.\KEY.h)(0x6062825E)()
+F (.\UART.h)(0x602B4047)()
+F (.\myTIM.h)(0x6028E82C)()
+F (.\SPI.h)(0x603B58EF)()
+F (.\LED.h)(0x60628243)()
+F (.\LCD.h)(0x603B58FD)()
+F (.\ICM.h)(0x60628E73)()
+F (.\TaskHandler.h)(0x6027778E)()
+F (.\isr.h)(0x602A2864)()
+F (.\main.h)(0x606284B1)()
+F (.\BUZ.h)(0x60628B0F)()
